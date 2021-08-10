@@ -1121,11 +1121,13 @@ body._lock {
 .footer__cat-text {
   text-decoration: none;
   color: #8D8D8D;
-}
-
-.footer__cat-text {
   display: block;
   margin: 16px 0 0 0;
+}
+
+.footer__cat-text:hover {
+	transition: color 0.3s;
+	color: #DAA520;
 }
 
 .footer_rights {
